@@ -1,9 +1,16 @@
-import './App.css';
+import "./assets/styles/custom.scss";
+import NavBar from "components/NavBar";
+import "./App.css";
 
-function App() {
+const App = () => {
   return (
-    <h1>Hello</h1>
+    <>
+      <NavBar />
+      <h2>
+        AFRANIO ALVES
+      </h2>
+    </>
   );
-}
+};
 
 export default App;

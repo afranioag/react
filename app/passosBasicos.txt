@@ -1,0 +1,26 @@
+criando projeto:
+	--->	npx create-react-app nome_do_projeto --template typescript
+    	em caso monoRepositorio, entrar na pasta criada e apagar a pasta .git. Ela pode estar oculta.
+	* o Segundo passo é limpar o projeto removendo arquivos de apresentação do react.
+
+User YARN como gerenciador de dependências.
+	para instalar as dependencias iniciais:
+	---> yarn install
+	---> yarn start - inicia o projeto para rodar.
+
+para adicionar alguma lib
+	---> yarn add bootstrap  //bootstrap é uma lib para trabalhar com rendereização
+	---> yarn add node-sass@4.14.1
+
+pretierFormat --: adicionar arquivo .pretierrc dentro da pasta src, e add 
+{
+    "tabWidth": 2,
+    "useTabs": false,
+    "singleQuote": true
+}
+
+precisa instalar tbm o plugin pretier
+para usar -: shit + alt + f
+
+navBar - para criação de navegação do usuário em tela superior(geralmente) onde fica os menus
+
