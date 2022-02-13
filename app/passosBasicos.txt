@@ -24,3 +24,26 @@ para usar -: shit + alt + f
 
 navBar - para criação de navegação do usuário em tela superior(geralmente) onde fica os menus
 
+google fonts
+https://fonts.google.com/
+
+_____________________
+Arquitetura do codigo.
+App.css estilo universal do app
+
+google fonts
+https://fonts.google.com/
+
+https://getbootstrap.com/
+https://getbootstrap.com/docs/5.0/layout/breakpoints/ -> para configurar as responsividade dos layout
+https://getbootstrap.com/docs/5.0/layout/containers/
+https://getbootstrap.com/docs/4.0/layout/grid/
+
+flex box:
+https://www.alura.com.br/artigos/css-guia-do-flexbox?gclid=Cj0KCQiAr5iQBhCsARIsAPcwROMrCfiMonLoJcHGsKBTrxNobYugwmykFb9Act77sB_8kVuUTO5GwBUaAsS2EALw_wcB
+https://flexboxfroggy.com/
+https://www.w3schools.com/css/css3_flexbox.asp
+
+usar menu hamburguer para quando a tela tiver pequeno comprimir os dados do menu ficando acessivel atraves do button hamburguer
+imagens SVG são imagens vetorizadas e elas não perdem o foco mesmo vc dando zoom varias vezes.
+_______________________
