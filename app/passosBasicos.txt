@@ -39,11 +39,12 @@ https://getbootstrap.com/docs/5.0/layout/breakpoints/ -> para configurar as resp
 https://getbootstrap.com/docs/5.0/layout/containers/
 https://getbootstrap.com/docs/4.0/layout/grid/
 
+---- no css quando quisermos determinar uma tamanho de midia usamos @media(min-width: 576px){ css } por ex. estamos dizendo que,
+quando atingir o tamanho minimo de 576px deve seguir as configurações que estiverem ali dentro
+
+
 flex box:
 https://www.alura.com.br/artigos/css-guia-do-flexbox?gclid=Cj0KCQiAr5iQBhCsARIsAPcwROMrCfiMonLoJcHGsKBTrxNobYugwmykFb9Act77sB_8kVuUTO5GwBUaAsS2EALw_wcB
 https://flexboxfroggy.com/
 https://www.w3schools.com/css/css3_flexbox.asp
-
-usar menu hamburguer para quando a tela tiver pequeno comprimir os dados do menu ficando acessivel atraves do button hamburguer
-imagens SVG são imagens vetorizadas e elas não perdem o foco mesmo vc dando zoom varias vezes.
 _______________________
