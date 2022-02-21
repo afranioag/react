@@ -47,4 +47,10 @@ flex box:
 https://www.alura.com.br/artigos/css-guia-do-flexbox?gclid=Cj0KCQiAr5iQBhCsARIsAPcwROMrCfiMonLoJcHGsKBTrxNobYugwmykFb9Act77sB_8kVuUTO5GwBUaAsS2EALw_wcB
 https://flexboxfroggy.com/
 https://www.w3schools.com/css/css3_flexbox.asp
-_______________________
+____________________________________________________________
+
+Para rotas:
+yarn add react-router-dom @types/react-router-dom
+na pasta src criar arquivo Routes.tsx para criar as rolas.
+
+____________________________________________________________
