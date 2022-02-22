@@ -1,6 +1,7 @@
+import './assets/styles/custom.scss';
 import './App.css';
 
-function App() {
+const App = () => {
   return (
     <h1>ESTOU LIMPO, E PRONTO PARA COMEÇAR!</h1>
   );
