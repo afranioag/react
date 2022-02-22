@@ -2,6 +2,19 @@ criando projeto:
 	--->	npx create-react-app nome_do_projeto --template typescript
     	em caso monoRepositorio, entrar na pasta criada e apagar a pasta .git. Ela pode estar oculta.
 	* o Segundo passo é limpar o projeto removendo arquivos de apresentação do react.
+		1. Na pasta public deixar apenas -> index.html e favicon.ico
+		1.1 dentro desse index.html deve ser removido os comentários, as linhas que usavam os arquivos apagados antes.
+			apagar meta com cor de tema, mudar idioma para pt-br se preferir. 
+		1.2 ajustar o <title> o <meta> content="descrição do projeto, simples", no body em <noscript> pode mudar a mensagem tbm para português.
+		
+		2. Agora na pasta src apagar -> App.test.tsx, logo.svg, reportWebVitals.tx, setupTests.ts, index.css
+		2.1 Em App.css limpar tudo.
+		2.2 Em App.tsx remover import que usa logo.svg, import do React que está agora subEntendido no sistema, 
+			no return deixar apenas uma tag h1 para iniciar.
+		2.3 Em index.tsx apagar import não usado (reportWebVitals e ./index.css)
+		
+		3.1 No arquivo tsconfig.json adicionar abaixo de "compilerOptions":{ "baseUrl":"./src", -> isso irá ajudar nos imports dos componentes.
+
 
 User YARN como gerenciador de dependências.
 	para instalar as dependencias iniciais:
