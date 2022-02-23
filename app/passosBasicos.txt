@@ -16,24 +16,35 @@ criando projeto:
 		3.1 No arquivo tsconfig.json adicionar abaixo de "compilerOptions":{ "baseUrl":"./src", -> isso irá ajudar nos imports dos componentes.
 
 
+No proximo passo iremos adicionar o BOOTSTRAP ao projeto.
+para adicionar alguma lib
+	---> yarn add bootstrap  //bootstrap é uma lib para trabalhar com rendereização
+	
+
+	* depois de instalado
+	Seguir com a instalação ---> yarn add node-sass@4.14.1
+	* agora vamos partir para customização do tema do bootstrap. Para isso precisamos criar um arquivo ".scss"
+	dica: custom.scss
+		criar caminho -> src/assets/styles/custom.css e dentro desse arquivo criar as classes de customização do
+			bootstrap. Verificar documentação pois já existem os nomes padrões. ex -> $theme-colors: (), $body-bg: #cor;
+	
+
+	Existem varias classes de estilos prontas que vc pode usar no seu codigo. leia a documentação.
+	para cores: https://getbootstrap.com/docs/4.0/utilities/colors/
+
+	Depois podemos adicionar a formação prettier. Para isso, crie um arquivo src/.prettierrc e dentro desse arquivo adicione
+		{ "tabWidt": 2, 
+		  "useTabs": false,
+		  "singleQuote": true
+		} e salve.
+	Em seguida instalar extenção prettier code formater. 
+		para usar a formatação -> shift + alt + f
+
 User YARN como gerenciador de dependências.
 	para instalar as dependencias iniciais:
 	---> yarn install
 	---> yarn start - inicia o projeto para rodar.
 
-para adicionar alguma lib
-	---> yarn add bootstrap  //bootstrap é uma lib para trabalhar com rendereização
-	---> yarn add node-sass@4.14.1
-
-pretierFormat --: adicionar arquivo .pretierrc dentro da pasta src, e add 
-{
-    "tabWidth": 2,
-    "useTabs": false,
-    "singleQuote": true
-}
-
-precisa instalar tbm o plugin pretier
-para usar -: shit + alt + f
 
 navBar - para criação de navegação do usuário em tela superior(geralmente) onde fica os menus
 
