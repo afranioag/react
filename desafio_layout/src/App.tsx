@@ -1,15 +1,11 @@
-import NavBar from 'components/NavBar';
 import './assets/styles/custom.scss';
 import './App.css';
-
+import Home from 'pages/Home';
 
 const App = () => {
   return (
-    <>
-    <NavBar />
-    <h1>ESTOU LIMPO, E PRONTO PARA COMEÇAR!</h1>
-    </>
+  <Home />
   );
-}
+};
 
 export default App;

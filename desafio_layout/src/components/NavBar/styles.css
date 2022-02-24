@@ -1,7 +1,6 @@
 
 .main-nav{
     min-height: 70px;
-    
 }
 
 .nav-logo-text,
@@ -10,9 +9,6 @@
   padding-left: 8px;
 }
 
-.main-logo{
-    background-color: red;
-}
 
 .main-menu {
     display: flex;
@@ -22,14 +18,14 @@
 }
 
 .main-menu a{
-    font-weight: bold;
+    font-weight: normal;
     padding: 20PX;
 }
 
 .main-menu a:hover{
-    font-weight: normal;
+    font-weight: bold;
 }
 
 .main-menu a.active{
-    font-weight: normal;
+    font-weight: bold;
 }
